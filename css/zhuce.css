@@ -1,0 +1,36 @@
+
+
+/*---------注册-------------*/
+
+.main .main_r{box-sizing: border-box;width: 355px;height: 500px;border:1px solid #D0D0D0;margin-top: 30px;position:relative;}
+.main .main_r .shang{height: 55px;background: #F5F5F5;font-size: 14px;line-height: 55px;color:#666666;}
+.main .main_r .shang span{padding-left: 20px;}
+.main .main_r .shang a{padding-right: 20px;float:right;color:#FF7800;}
+.main .main_r .label{display: inline-block;width: 84px;height: 35px;padding-left: 25px;font-size: 14px;line-height: 35px;color:#666666;margin-top: 30px;text-align: left;}
+.main .main_r input{border:1px solid #E6E6E6;background: #FCFCFC;width: 200px;height: 33px;border-radius: 5px;}
+.main .main_r .ren{position: absolute;top:90px;right:50px;color:#E6E6E6;font-size: 20px;}
+.main .main_r .suo1{display:block;width: 20px;height: 25px;position: absolute;top:156px;right:50px;background: url(../img/suo.bmp);}
+.main .main_r .suo2{display:block;width: 20px;height: 25px;position: absolute;top:222px;right:50px;background: url(../img/suo.bmp);}
+.main .main_r #yanzheng{width: 140px;}
+.main .main_r .yzm{padding:5px;background: #efefef;font-size:14px;margin-left: 5px;color:blue;font-weight: bold;}
+.main .main_r #duanxin{width: 140px;}
+.main .main_r .huoqu{color: rgb(102, 102, 102);cursor: pointer;border-width: 1px;border-style: solid;border-color: rgb(234, 234, 234);border-image: initial;background: rgb(234, 234, 234);border-radius: 5px;font-size: 12px;padding:8px;margin-left: 5px;}
+.main .main_r .btn{width: 265px;height: 40px;background: #C81417;color:#fff;text-align: center;border-radius: 6px;font-size: 16px;font-weight: bold;margin-left: 44px;margin-top: 35px;}
+.main .main_r .duoxuan{width: 12px;height: 12px;margin-left: 232px;margin-top: 16px;}
+.main .main_r .xieyi{font-size: 12px;color:#A7A7A7;float:right;margin-top: 12px;}
+
+
+
+/*-------------登录-----------*/
+.main2{text-align: center;}
+.main2 .login{box-sizing: border-box;width: 355px;height: 390px;border:1px solid #D0D0D0;margin-top: 75px;position:relative;font-size: 14px;color:#A7A7A7;}
+.main2 .login .login_t{position:relative;overflow: hidden;}
+.main2 .login .login_t a{padding-left: 20px;float:left;color:#FF7800;font-size: 14px;line-height: 50px;}
+.main2 .login .login_t i{width: 45px;height: 45px;position:absolute;top:5px;right:5px;background: url(../img/jingling.png);background-position: -80px -85px;}
+.main2 .login input{border:1px solid #E6E6E6;background: #FCFCFC;width: 240px;height: 40px;border-radius: 5px;}
+.main2 .login .ren{position: absolute;top:58px;right:70px;color:#E6E6E6;font-size: 20px;}
+.main2 .login .suo{display:block;width: 20px;height: 25px;position: absolute;top:130px;right:70px;background: url(../img/suo.bmp);}
+.main2 .login .btn2{width: 242px;height: 40px;background: #C81417;color:#fff;text-align: center;border-radius: 6px;font-size: 16px;font-weight: bold;margin-top: 12px;}
+.main2 .login .duoxuan{width: 12px;height: 12px;margin-left: -50px;}
+.main2 .login .you{padding-right: 50px;}
+

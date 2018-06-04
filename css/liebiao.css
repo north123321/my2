@@ -1,0 +1,65 @@
+/* 
+* @Author: Marte
+* @Date:   2018-05-29 17:26:09
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-06-01 10:22:53
+*/
+.tuijian{width: 100%;height: 150px;border:1px solid #E5E5E5;}
+.tuijian li{float:left;}
+.tuijian .tui1{width: 40px;height: 120px;border-right: 1px solid #E5E5E5;text-align: center;padding-top: 30px;}
+.tuijian .tui1 p{font-size: 15px;color:#667D7D;}
+.tuijian .tui2{width: 275px;padding-left: 12px;padding-top: 10px;font-size: 14px;line-height: 18px;color:#333333;}
+.tuijian .tui2 img{float:left;padding-right: 10px;}
+.tuijian .tui2 p{color:#FF3243;line-height: 30px;}
+.tuijian .tui2 button{width: 80px;height: 30px;background: #E6E6E6;font-size: 14px;line-height: 30px;color:#333333;margin-top: 10px;}
+.leimu{height: 210px;width: 100%;border:1px solid #E5E5E5;margin-top: 20px;}
+.leimu li{overflow: hidden;border-bottom: 1px solid #E5E5E5;padding-left: 40px;}
+.leimu li span{font-size: 13px;line-height: 35px;color:#666666;padding-right: 20px;}
+.leimu li span:first-child{color:#333333;}
+.leimu li a{font-size: 13px;line-height: 35px;color:#164A96;float:right;padding-right: 10px;}
+.leimu li button{width: 54px;height: 20px;border:1px solid #CCCCCC;background: #F8F7F5;float:right;font-size: 13px;line-height: 20px;color:#164A96;margin-top: 7px;}
+.leimu li input{width: 44px;height: 20px;border:1px solid #ccc;}
+.leimu li p{font-size: 13px;line-height: 35px;color:#666666;}
+.goods{margin-top: 15px;height: 2222px;}
+.goods .goods_l{width: 188px;overflow:hidden;border:1px solid #ccc;text-align: center;}
+.goods .goods_l ul .li1{border-bottom: 1px solid #ccc;background: #FAFAFA;}
+.goods .goods_l ul .rexiao{font-size: 13px;line-height: 40px;color:#D01417;padding-right: 5px;}
+.goods .goods_l ul .hot{font-size: 12px;line-height: 40px;color:#666666;}
+.goods .goods_l ul p{font-size: 12px;line-height: 14px;color:#333;}
+.goods .goods_l ul span{font-size: 12px;line-height: 28px;color:#FF3344;font-weight: bold;}
+
+.goods .goods_r{width: 1000px;overflow:hidden;float:right;}
+.goods .goods_r .ul1{width: 100%;height: 40px;border:1px solid #ccc;}
+.goods .goods_r li{float:left;}
+.goods .goods_r .li1{font-size: 14px;line-height: 40px;color:#333333;padding:0 10px;}
+.goods .goods_r .li2 span{padding:3px 15px;border:1px solid #ccc;font-size: 14px;margin-top: 6px;float:left;}
+.goods .goods_r .li3 input{width: 12px;height: 12px;border:1px solid #ccc;}
+.goods .goods_r .li3 span{font-size: 12px;line-height: 40px;color:#1E55AB;}
+.goods .goods_r .li4 p{font-size: 14px;line-height: 40px;color:#000;float:left;padding-left: 25px;padding-right: 15px;}
+.goods .goods_r .li4 p span{color:#FA5053;}
+.goods .goods_r .li5 button{width: 70px;height: 25px;border:1px solid #ccc;background:#fff;font-size: 14px;line-height: 25px;color:#CDCDCD;margin-top: 6px;}
+
+.box ul{overflow: hidden;height: 2090px;}
+.box li{float:left;width: 220px;padding-right:20px;border-bottom: 1px dotted #ccc;margin: 20px 0;}
+.box ul img{width:220px;}
+.box .span1{color:#f00;font-size: 14px;line-height: 62px;font-weight: bold;}
+.box .span1::before{content:'￥';}
+.box .span2{color:#999999;font-size: 12px;line-height: 62px;text-decoration: line-through;}
+.box .span2::before{content:'￥';}
+.box p{font-size: 14px;line-height: 24px;color:#666666;}
+
+
+.page{padding:10px 0;float:right;}
+/*.page .fenye{overflow: hidden;margin-right: 35px;border:0 none;float:right;}*/
+.page span{display:inline-block;margin:5px;width:30px;height:30px;line-height:30px;text-align:center;border:1px solid #ccc;font-size:12px;}
+.page span.active{background-color: #FDF3F3;color:#E4393C;border:1px solid #E4393C;}
+
+/*.page  .fenye2 li{float:left;font-size: 12px;line-height: 26px;color:#000000;}
+.page  .fenye2 li span{color:#FB5053;}
+.page  .fenye2 li input{width: 35px;height: 25px;border:1px solid #000;}
+.page  .fenye2 li button{width: 35px;height: 25px;background: #F5F5F5;}*/
+
+.search .container{text-align: center;height: 60px;background: #F6F6F6;line-height: 60px;}
+.search span{font-size: 15px;color:#333333;padding-right: 5px;}
+.search input{width: 386px;height: 30px;border:1px solid #ccc;}
+.search button{width: 80px;height: 32px;background: #E43B3D;color:#fff;}

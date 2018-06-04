@@ -1,0 +1,36 @@
+/* 
+* @Author: Marte
+* @Date:   2018-05-30 17:15:17
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-31 19:48:40
+*/
+#details .love .chen{width: 100%;height: 590px;border:1px solid #E6E6E6;}
+
+#details .you{border:1px solid #E6E6E6;overflow: hidden;text-align: center;margin-top: 10px;}
+#details .love p{font-size: 14px;line-height: 45px;color:#333333;}
+#details .love p i{display: block;float:left;color:#FFAD66;padding-right: 5px;font-size: 30px;}
+#details .love .chen_l{width: 490px;text-align: center;}
+#details .love .chen_l img{float:left;}
+#details .love .chen_l img:nth-child(1){padding-left: 80px;border:1px solid #ddd;}
+#details .love .chen_l img:nth-child(2){padding-left: 30px;}
+#details .love .chen_c{padding-top: 40px;width: 500px;font-size: 14px;color:#666666;}
+#details .love .chen_c li{overflow:hidden;}
+#details .love .chen_c li:nth-child(1) img{float:left;}
+#details .love .chen_c li:nth-child(1) p{line-height: 22px;color:#666666;}
+#details .love .chen_c li:nth-child(2){width: 500px;height: 50px;background: #F7F7F7;line-height: 50px;color:#333333;}
+#details .love .chen_c li:nth-child(2) .span1{font-size: 18px;line-height: 50px;color:#C81417;}
+#details .love .chen_c li:nth-child(2) .span2{font-size: 12px;line-height: 50px;color:#B2B2B2;text-decoration: line-through;}
+.li3{line-height: 25px;margin-top: 10px;}
+.li3 span:nth-child(2),.li3 span:nth-child(3){padding:5px;border:1px solid #CCCCCC;margin: 4px;}
+.li4{line-height: 25px;margin-top: 10px;}
+.li4 span{padding:5px;border:1px solid #CCCCCC;margin: 4px;}
+.li5{margin-top: 10px;position:relative;}
+.li5 input{width: 30px;height: 40px;border:1px solid #ccc;}
+.li5 .jia,.li5 .jian{width: 30px;height: 21px;background: #fff;border:1px solid #ccc;position: absolute;}
+.li5 .jia{top:1px;left:102px;}
+.li5 .jian{top:22px;left:102px;}
+.li5 .add{margin-left: 40px;width: 140px;height: 40px;background: #C81417;color:#fff;font-size: 14px;line-height: 40px;text-align: center;}
+.li5 img{padding:60px 0 0 10px;}
+
+.chen_r ul{width: 200px;height: 500px;text-align: center;}
+.chen_r span{font-size: 14px;line-height: 80px;color:#333333;}

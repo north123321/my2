@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+        <link rel="stylesheet" type="text/css" href="../css/liebiao.css" />
+        <script src="../js/common.js"></script>
+        <script src="../js/liebiao.js"></script>
+        <!-- <script src="../js/details.js"></script> -->
+
+        <!-- <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded',function(){
+                var box = document.querySelector('.box');
+                var goodslist = Cookie.get('goodslist')||[];
+
+                if(typeof goodslist === 'string'){
+                    goodslist = JSON.parse(goodslist);
+                }
+
+                box.onclick = function(e){
+                    e=e||window.event;
+                    var target = e.target||e.srcElement;
+                    if(target.tagName === 'img'){
+                        var currentLi = target.parentNode;
+                        var guid = currentLi.getAttribute('data-guid');
+                        var idx;
+                        var has = goodslist.some(function(g,i){
+                            idx = i;
+                            return g.guid === guid;
+                        });
+                        if(has){
+                            goodslist[idx].qty++;
+                        }else{
+                            var box = {
+                                guid:guid,
+                                imgurl:currentLi.children[0].src,
+                                price:currentLi.children[1].innerText,
+                                qty:1
+                            }
+                            goodslist.push(box);
+                        }
+                        document.cookie = 'goodslist='+JSON.stringify(goodslist);
+                    }
+                }
+            })
+        </script> -->
+    </head>
+    <body>
+        <div id="header">
+            <div class="container clearfix">
+                <ul class="hd_l fl">
+                    <li>奥特莱斯购物中心</li>
+                    <li>商家入驻</li>
+                </ul>
+                <ul class="hd_r fr">
+                    <li>您好,欢迎来到奥莱购</li>
+                    <li><a href="denglu.html">请登录</a></li>
+                    <li><a href="zhuce.html">免费注册</a></li>
+                    <li><span class="iconfont icon-gouwuche"></span>购物车<span>0</span></li>
+                    <li>订单查询</li>
+                    <li>我的收藏</li>
+                    <li>帮助中心</li>
+                </ul>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="container">
+                <div class="nav_t">
+                    <img src="../img/nav1.jpg" alt="" />
+                    <div class="nav_tr">
+                        <input type="text" />
+                        <button>搜索</button>
+                    </div>
+                </div>
+                <div class="nav_b">
+                    <ul class="nav_bl fl">
+                        <li><a href="../index.html">首页</a><!-- <span style="display:block;position: absolute;width: 40px;height: 4px;background: #C01013;top:28px;"></span> --></li>
+                        <li><a href="">实体店</a><span></span></li>
+                        <li><a href="">关于我们</a><span></span></li>
+                    </ul>
+                    <div class="nav_br">
+                        <span class="xuanting"><i class="iconfont icon-leimu"></i>分类</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="tuijian">
+                <li class="tui1"><p>热</p><p>门</p><p>推</p><p>荐</p></li>
+                <li class="tui2">
+                    <img src="../img/liebiao1.bmp" alt="" />
+                    <span>[支持自提]迪士尼PEANUTS男童圆领套头卫衣</span>
+                    <p>￥92</p>
+                    <button>立即抢购</button>
+                </li>
+                <li class="tui2">
+                    <img src="../img/liebiao2.bmp" alt="" />
+                    <span>[支持深圳自提]骆驼牛皮革男士商务休闲鞋</span>
+                    <p>￥439</p>
+                    <button>立即抢购</button>
+                </li>
+                <li class="tui2">
+                    <img src="../img/liebiao3.bmp" alt="" />
+                    <span>彪马puma蕾哈娜女子条纹蝴蝶结休闲鞋Basket Heart</span>
+                    <p>￥639</p>
+                    <button>立即抢购</button>
+                </li>
+                <li class="tui2">
+                    <img src="../img/liebiao4.bmp" alt="" />
+                    <span>[支持自提]大嘴猴 男士时尚休闲圆领印花套头卫衣休闲服</span>
+                    <p>￥157</p>
+                    <button>立即抢购</button>
+                </li>
+            </ul>
+            <ul class="leimu" style="border-bottom:0 none;">
+                <li>
+                    <span style="color:#FB5053;font-weight:bold;">全部结果 > (男装)</span><span>所有类目 > </span>
+                </li>
+                <li>
+                    <span class="hei">品牌：</span>
+                    <span>劲霸</span>
+                    <span>利蜂</span>
+                    <span>G2000</span>
+                    <span>路易2000</span>
+                    <span>圣得西</span>
+                    <span>花花公子</span>
+                    <span>新格新</span>
+                    <span>欧尼杰</span>
+                    <span>第五街</span>
+                    <span>DURA DURA</span>
+                    <span>恒源祥</span>
+                    <span>金盾</span>
+                    <span>梵思诺VERSINO</span>
+                    
+                    <button>+多选</button>
+                    <a href="">更多</a>
+                </li>
+                <li>
+                    <span class="hei">价格：</span>
+                    <span>0-50元</span>
+                    <span>50-100元</span>
+                    <span>150-300元</span>
+                    <span>300-500元</span>
+                    <span>500-800元</span>
+                    <span>800-1500元</span>
+                    <span>1500元以上</span>
+                    <input type="text" />
+                    <span style="padding:0 15px;">-</span>
+                    <input type="text" />
+                    <input type="button" value="确定" />
+                </li>
+                <li>
+                    <span class="hei">衣长：</span>
+                    <span>常规</span>
+                    <span>短款</span>
+                    <span>长款</span>
+                    <span>中长款</span>
+                    
+                    <button>+多选</button>
+                    <a href="">更多</a>
+                </li>
+                <li>
+                    <span class="hei">版型：</span>
+                    <span>宽松</span>
+                    <span>修身</span>
+                    
+                    <button>+多选</button>
+                    <a href="">更多</a>
+                </li>
+                <li style="border:1px solid #fff;text-align:center;">
+                    <p>更多筛选条件</p>
+                </li>
+            </ul>
+        </div>
+        <div class="goods">
+            <div class="container">
+                <div class="goods_l fl">
+                    <ul>
+                        <li class="li1"><span class="rexiao">热门销售</span><span class="hot">HOT</span></li>
+                        <li>
+                            <img src="../img/liebiao5.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao6.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao7.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao5.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao5.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                    </ul>
+                    <ul style="margin-top:20px;">
+                        <li class="li1"><span class="rexiao">新上商品</span><span class="hot">NEWS</span></li>
+                        <li>
+                            <img src="../img/liebiao5.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao6.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao7.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao5.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                        <li>
+                            <img src="../img/liebiao5.bmp" alt="" />
+                            <p>德尔惠2017夏季新款</p>
+                            <span>￥50</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="goods_r">
+                    <ul class="ul1">
+                        <li class="li1"><span class="span1">排序</span></li>
+                        <li class="li2">    
+                            <span style="background:#DC3645;color:#fff;">综合排序</span>
+                            <span>销量</span>
+                            <span>价格</span>
+                            <span>折扣</span>
+                            <span style="margin-right:10px;">上架时间</span>
+                        </li>
+                        <li class="li3">
+                            <input type="checkbox" />
+                            <span>仅显示有货</span>
+                            <input type="checkbox" />
+                            <span>自营</span>
+                            <input type="checkbox" />
+                            <span>海外购</span>
+                            <input type="checkbox" />
+                            <span>海外直邮</span>
+                            <input type="checkbox" />
+                            <span>优惠</span>
+                        </li>
+                        <li class="li4">
+                            <p>共<span>200</span>个商品<span>1</span>/5</p>
+                        </li>
+                        <li class="li5">
+                            <button>上一页</button>
+                            <button>下一页</button>
+                        </li>
+                    </ul>
+                    <div class="box">   
+                    </div>
+                    <div class="page">
+                        <!-- <ul class="fenye2">
+                            <li>
+                                共<span>3</span>页
+                            </li>
+                            <li>
+                                到第<input type="text" value="1" />页
+                            </li>
+                            <li>
+                                <button>确定</button>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <div class="container">
+                <span>重新搜索</span>
+                <input type="text" placeholder="请输入商品名称"/>
+                <a href="details.html"><button>搜索</button></a>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <img src="../img/footer.jpg" alt="" />
+            </div>
+        </div>
+    </body>
+</html>
